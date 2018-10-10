@@ -1,0 +1,57 @@
+/*Media quiry*/
+@media screen and (min-width: 0px) and (max-width: 450px) {
+    .main-form {
+        
+        background-color:dodgerblue !important; 
+        padding: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    
+    .body-style{
+        background-image: url('http://mdbootstrap.com/img/Photos/Others/images/91.jpg');
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center center;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px) {
+    .main-form {
+        width: 450px;
+        margin: auto;
+        background-color:dodgerblue !important; 
+        padding: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    
+    .body-style{
+        background-image: url('http://mdbootstrap.com/img/Photos/Others/images/91.jpg');
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center center;
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 600px)  {
+    .main-form {
+        width: 500px;
+        margin: auto;
+        background-color:dodgerblue !important; 
+        padding: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    
+    .body-style{
+        background-image: url('http://mdbootstrap.com/img/Photos/Others/images/91.jpg');
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center center;
+        padding-bottom: 100px;
+    }
+}
+
+footer{
+    text-align: center;
+}
